@@ -1,0 +1,29 @@
+{
+  "name": "ai-image-generator",
+  "version": "1.0.0",
+  "description": "\"# Open-AI-Image-Generator\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonmh2329/Open-AI-Image-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonmh2329/Open-AI-Image-Generator/issues"
+  },
+  "homepage": "https://github.com/sonmh2329/Open-AI-Image-Generator#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
